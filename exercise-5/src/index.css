@@ -1,0 +1,25 @@
+:root {
+    --main-color-light: rgb(244, 242, 253);
+}
+
+body {
+    background-color: var(--main-color-light);
+    color: #0e1238;
+}
+
+.title:hover {
+    font-size: 50px;
+    transition-duration: 1s;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.4s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 5px 20px rgba(1, 45, 128, 0.5);
+}
